@@ -1,18 +1,92 @@
-/* Fixed navigation
+/* General
 --------------------------------------*/
-body > .container {
-	padding-top: 80px;
+body {
+	background: url("../images/background.png");
+	background-repeat: repeat;
+}
+
+#mainHeader {
+	color: #FCFBE3 !important;
 }
 
 
-/* Footer
+/* Jumbotron
+--------------------------------------*/
+.jumbotron {
+	background-color: #FF595E !important;
+}
+
+.jumbotron h1 {
+	/*color: #6A4C93;*/
+}
+
+.jumbotron #quote {
+	color: #FCFBE3;
+}
+
+.jumbotron footer {
+	color: #FCFBE3;
+	font-weight: bold;
+}
+
+
+/* Navigation
+--------------------------------------*/
+body > .container {
+	padding-top: 10px;
+}
+
+/* Navigation Colors
+--------------------------------------*/
+.navbar-default {
+	background: #FFCA3A;
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar-default .navbar-brand {
+	font-size: 30px;
+}
+
+.navbar-nav > .active > a, .navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+  color:#FCFBE3 !important;
+  background: url("../images/background.png") !important;
+}
+
+
+/* Main Section
+--------------------------------------*/
+#col2 {
+	background: #8AC926;
+}
+
+#col1 {
+	background: #6A4C93;
+}
+
+.mainBody {
+	color: #FCFBE3 !important;
+}
+
+#row1 {
+	margin-bottom: 20px !important;
+}
+
+#profile {
+	width: 250px;
+	margin-right: 10px;
+}
+
+
+/* Sticky Footer
 --------------------------------------*/
 .footer > div {
 	line-height: 50px;
 }
 
 
-/* Sticky footer styles
+/* Sticky Footer Styles
 --------------------------------------*/
 html {
   position: relative;
@@ -30,21 +104,39 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 50px;
-  background-color: gray;
+  background-color: #FFCA3A;
 }
 
 
 /* Portfolio Page
 --------------------------------------*/
-.portfolio {
-	background: gray;
-	padding-top: 100px;
+.project {
+	width: 100%;
+	height: 300px;
+	color: white;
+	font-size: 30px;
 }
 
-#portfolio1 {
+.portfolioText {
 	background: black;
 }
 
-#test3 {
-	background: red;
+.row a {
+	text-decoration: none;
+}
+
+#pOne {
+	background: url("../images/project1.jpg");
+}
+#pTwo {
+	background: url("../images/project2.jpg");
+}
+#pThree {
+	background: url("../images/project3.jpg");
+}
+#pFour {
+	background: url("../images/project4.jpg");
+}
+#pFive {
+	background: url("../images/project5.jpg");
 }
