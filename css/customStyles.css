@@ -32,3 +32,19 @@ body {
   height: 50px;
   background-color: gray;
 }
+
+
+/* Portfolio Page
+--------------------------------------*/
+.portfolio {
+	background: gray;
+	padding-top: 100px;
+}
+
+#portfolio1 {
+	background: black;
+}
+
+#test3 {
+	background: red;
+}
